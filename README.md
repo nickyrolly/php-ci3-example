@@ -16,7 +16,7 @@ Because once the operational processes of this legacy application are covered by
 
 To run this application in development, make sure the two binaries above are available. Then, follow the steps below (Linux / MacOS):
 - Open 2 terminals and navigate to this repository in the root directory.
-- In the first terminal, run the command: `php-fpm --nodaemonize --fpm-config scripts/php-fpm-dev.conf`
+- In the first terminal, run the command: `./scripts/run-fpm-dev.sh`
 - In the second terminal, run the command: `./scripts/run-dev.sh`
 
 Congratulations, your application can be accessed at [localhost](http://localhost:8081/blog). If you want to change the settings, please check inside the "scripts" folder.
