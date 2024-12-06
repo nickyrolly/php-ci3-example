@@ -17,7 +17,7 @@ build:
                     - echo "Do nothing"
 
 run:
-    name: php-example-ci3
-    description: My example php CI 3 application
+    name: php-example-ci3-prod
+    description: PHP CI 3 application production
     command: php-fpm --nodaemonize --fpm-config scripts/php-fpm-prod.conf
-    port: 7500
+    port: 7501
