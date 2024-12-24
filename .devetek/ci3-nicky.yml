@@ -19,5 +19,5 @@ build:
 run:
     name: php-example-ci3
     description: My example php CI 3 application
-    command: php-fpm --nodaemonize --fpm-config scripts/php-fpm-nickyrolly1trbtP.conf
+    command: php-fpm --nodaemonize --fpm-config scripts/php-fpm-nicky.conf
     port: 7502
